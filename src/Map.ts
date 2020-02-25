@@ -19,5 +19,7 @@ export class Map {
         lng: mappable.location.longitude
       }
     });
+
+    marker.addListener('click', () => {});
   }
 }
