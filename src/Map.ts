@@ -1,3 +1,11 @@
+export interface Mappable {
+  location: {
+    latitude: number;
+    longitude: number;
+  };
+  information(): string;
+}
+
 export class Map {
   private map: google.maps.Map;
 
