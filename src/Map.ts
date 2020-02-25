@@ -10,4 +10,14 @@ export class Map {
       zoom: 2
     });
   }
+
+  addMarker(mappable: Mappable): void {
+    const marker = new google.maps.Marker({
+      map: this.map,
+      position: {
+        lat: mappable.location.latitude,
+        lng: mappable.location.longitude
+      }
+    });
+  }
 }
