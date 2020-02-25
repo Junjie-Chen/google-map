@@ -4,6 +4,7 @@
   "description": "_A Google map that displays randomly generated location of a user and a company_",
   "main": "index.js",
   "scripts": {
+    "dev": "parcel public/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
