@@ -20,6 +20,10 @@ export class Map {
       }
     });
 
-    marker.addListener('click', () => {});
+    marker.addListener('click', () => {
+      const infoWindow = new google.maps.InfoWindow({
+        content: mappable.information()
+      });
+    });
   }
 }
