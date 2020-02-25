@@ -1,3 +1,5 @@
+import faker from 'faker';
+
 export class Company {
   name: string;
   catchPhrase: string;
@@ -5,4 +7,8 @@ export class Company {
     latitude: number;
     longitude: number;
   };
+
+  constructor() {
+    this.name = faker.company.companyName();
+  }
 }
