@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Junjie-Chen/google-map/issues"
   },
-  "homepage": "https://github.com/Junjie-Chen/google-map#readme"
+  "homepage": "https://github.com/Junjie-Chen/google-map#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
 }
