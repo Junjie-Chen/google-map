@@ -24,6 +24,8 @@ export class Map {
       const infoWindow = new google.maps.InfoWindow({
         content: mappable.information()
       });
+
+      infoWindow.open(this.map, marker);
     });
   }
 }
