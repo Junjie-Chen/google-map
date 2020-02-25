@@ -14,4 +14,8 @@ export class User {
       longitude: parseFloat(faker.address.longitude())
     };
   }
+
+  information(): string {
+    return `User: ${this.name}`;
+  }
 }
